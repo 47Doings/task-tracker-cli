@@ -54,3 +54,7 @@ Tasks are stored locally in a `tasks.json` file.
 ## Author
 
 Built as a learning project using Python.
+
+## Project URL
+
+https://github.com/47Doings/task-tracker-cli
