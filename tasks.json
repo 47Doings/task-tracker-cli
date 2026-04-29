@@ -1,9 +1,37 @@
 [
     {
         "id": 1,
-        "description": "Buy groceries",
-        "status": "todo",
+        "description": "Learn Python properly",
+        "status": "in-progress",
         "createdAt": "2026-04-29 09:47:41.652194",
-        "updatedAt": "2026-04-29 09:47:41.652252"
+        "updatedAt": "2026-04-29 11:56:45.485084"
+    },
+    {
+        "id": 3,
+        "description": "Task A",
+        "status": "todo",
+        "createdAt": "2026-04-29 11:43:25.524366",
+        "updatedAt": "2026-04-29 11:43:25.524440"
+    },
+    {
+        "id": 4,
+        "description": "Task B",
+        "status": "todo",
+        "createdAt": "2026-04-29 11:43:44.368876",
+        "updatedAt": "2026-04-29 11:43:44.368933"
+    },
+    {
+        "id": 4,
+        "description": "LEarn python",
+        "status": "todo",
+        "createdAt": "2026-04-29 11:53:49.336134",
+        "updatedAt": "2026-04-29 11:53:49.336189"
+    },
+    {
+        "id": 5,
+        "description": "Build Cli",
+        "status": "todo",
+        "createdAt": "2026-04-29 11:54:23.200767",
+        "updatedAt": "2026-04-29 11:54:23.200822"
     }
 ]
