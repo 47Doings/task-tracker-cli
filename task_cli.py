@@ -6,7 +6,7 @@ from datetime import datetime
 FILE_NAME = "tasks.json"
 
 
-# ----------------- LOAD / SAVE -----------------
+# LOAD / SAVE 
 
 def load_tasks():
     if not os.path.exists(FILE_NAME):
@@ -21,7 +21,7 @@ def save_tasks(tasks):
         json.dump(tasks, file, indent=4)
 
 
-# ----------------- ADD TASK -----------------
+# ADD TASK 
 
 def add_task(description):
     tasks = load_tasks()
@@ -40,7 +40,7 @@ def add_task(description):
     print(f"Task added successfully (ID: {new_task['id']})")
 
 
-# ----------------- LIST TASKS -----------------
+# LIST TASKS 
 
 def list_tasks():
     tasks = load_tasks()
@@ -60,7 +60,7 @@ UpdatedAt: {task['updatedAt']}
 """)
 
 
-# ----------------- DELETE TASK -----------------
+# DELETE TASK
 
 def delete_task(task_id):
     tasks = load_tasks()
@@ -82,7 +82,7 @@ def delete_task(task_id):
     print(f"Task {task_id} deleted successfully.")
 
 
-# ----------------- UPDATE TASK -----------------
+# UPDATE TASK
 
 def update_task(task_id, new_description):
     tasks = load_tasks()
