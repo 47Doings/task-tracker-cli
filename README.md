@@ -55,6 +55,3 @@ Tasks are stored locally in a `tasks.json` file.
 
 Built as a learning project using Python.
 
-## Project URL
-
-https://roadmap.sh/projects/task-tracker
